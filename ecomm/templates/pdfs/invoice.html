@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice</title>
+</head>
+<body>
+    <h1>Invoice</h1>
+    <p>Order ID: {{ order_num }}</p>
+    <p><strong>Service Provider</strong></p>
+    <p>Django Ecommerce</p>
+    <p>Building No.007, Athgarh, Cuttack, Odisha, Contact: 9876543210</p>
+
+    <p>Order Date: {{ order_date }}</p>
+    <p>Customer Name: {{ customer }}</p>
+    <h2>Items:</h2>
+    <ul>
+        <li>Product 1 - Quantity: 2 - Price: 50.00</li>
+        <li>Product 2 - Quantity: 1 - Price: 50.00</li>
+    </ul>
+    <p>Total Amount: {{ total_amount }}</p>
+    <p><strong>Please Note:</strong></p>
+    <p>Dear Consumer, the bill payment will reflect in next 48 hours in your account. Please contact our customer support for any queries regarding this order.</p>
+</body>
+</html>

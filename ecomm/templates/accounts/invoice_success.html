@@ -1,0 +1,8 @@
+<!-- templates/invoice_success.html -->
+{% extends 'base/base.html' %}
+
+{% block start %}
+<h1>Invoice Generated Successfully</h1>
+<p>You can download your invoice from the link below:</p>
+<a href="{{ pdf_path }}" target="_blank">Download Invoice</a>
+{% endblock %}
